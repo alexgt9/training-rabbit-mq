@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "dependencies": {
+    "amqp-ts": "^1.8.0"
+  },
+  "scripts": {
+    "build": "yarn install && docker-compose up"
+  }
+}
