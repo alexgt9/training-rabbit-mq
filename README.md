@@ -10,5 +10,5 @@ To start the rabbitMq server and install dependencies `yarn build`
 
 ### Solved 
 
-Execute `node src/consumer.js` to start consuming messages
-Execute `node src/send_message` to send a message to the exchange
+Execute `node src/send-letter/consumer.js` to start consuming messages
+Execute `node src/send-letter/send_message` to send a message to the exchange
