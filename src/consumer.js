@@ -8,4 +8,5 @@ var queue = connection.declareQueue("aleh-queue");
 queue.bind(exchange);
 queue.activateConsumer((message) => {
     console.log("Message received: " + message.getContent());
+    message.ack();
 });
